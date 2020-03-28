@@ -1,0 +1,48 @@
+header {
+    @extend %display-flex;
+    align-items: flex-start;
+    input {
+      @include input-btn-default();
+      &:focus {
+        outline: none;
+      }
+    }
+    li {
+      @include list-default();
+    }
+    a {
+      @include a-default();
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+    h1 {
+      span {
+        display: block;
+        font-size: 15px;
+        font-weight: normal;
+      }
+    }
+    .logo {
+      width: 45px;
+      height: 70px;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .header-prefix {
+      @extend %display-flex;
+      align-items: center;
+    }
+    .navbar {
+      ul {
+        @extend %display-flex;
+      }
+    }
+    .light-theme {
+        @include theme-color($primary-dark-color, $text-dark-color);
+    }
+    .dark-theme {
+        @include theme-color($primary-light-color, $text-light-color);
+    }
+  }
+

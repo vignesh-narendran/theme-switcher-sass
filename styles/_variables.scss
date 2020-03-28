@@ -1,0 +1,52 @@
+$primary-light-color: #ffffff;
+$secondary-color: #f36505;
+$text-light-color: #333333;
+$primary-dark-color: #000000;
+$text-dark-color: #eeeeee;
+$font-fam: "Montserrat", sans-serif;
+$isDark: true;
+
+$amountList: (5, 10, 15, 20, 25, 30);
+@each $amount in $amountList {
+  .margin-#{$amount} {
+    margin: #{$amount}px;
+  }
+  .margin-y-#{$amount} {
+    margin: #{$amount}px 0;
+  }
+  .margin-x-#{$amount} {
+    margin: 0 #{$amount}px;
+  }
+  .padding-#{$amount} {
+    padding: #{$amount}px;
+  }
+  .padding-y-#{$amount} {
+    padding: #{$amount}px 0;
+  }
+  .padding-x-#{$amount} {
+    padding: 0 #{$amount}px;
+  }
+}
+
+@mixin list-default(){
+    list-style: none;
+}
+@mixin a-default(){
+  text-decoration: none;
+  font-weight: bold;
+  color: $text-light-color;
+}
+@mixin input-btn-default(){
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+@mixin theme-color($color1, $color2){
+    background: $color1;
+    color: $color2;
+}
+%display-flex{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.main-container{
+    @extend %display-flex;
+    align-items: center;
+    text-align: justify;
+    line-height: 2;
+    img{
+        width: 400px;
+    }
+    input {
+        @include input-btn-default();
+        &:focus {
+          outline: none;
+        }
+      }
+}
+.contact-btn{
+    background: $secondary-color;
+}
+.resume-btn{
+    background: darken($primary-light-color, 30%);
+}

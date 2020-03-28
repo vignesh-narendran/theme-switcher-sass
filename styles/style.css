@@ -1,0 +1,270 @@
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-y-5 {
+  margin: 5px 0;
+}
+
+.margin-x-5 {
+  margin: 0 5px;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-y-5 {
+  padding: 5px 0;
+}
+
+.padding-x-5 {
+  padding: 0 5px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-y-10 {
+  margin: 10px 0;
+}
+
+.margin-x-10 {
+  margin: 0 10px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-y-10 {
+  padding: 10px 0;
+}
+
+.padding-x-10 {
+  padding: 0 10px;
+}
+
+.margin-15 {
+  margin: 15px;
+}
+
+.margin-y-15 {
+  margin: 15px 0;
+}
+
+.margin-x-15 {
+  margin: 0 15px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.padding-y-15 {
+  padding: 15px 0;
+}
+
+.padding-x-15 {
+  padding: 0 15px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.margin-y-20 {
+  margin: 20px 0;
+}
+
+.margin-x-20 {
+  margin: 0 20px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-y-20 {
+  padding: 20px 0;
+}
+
+.padding-x-20 {
+  padding: 0 20px;
+}
+
+.margin-25 {
+  margin: 25px;
+}
+
+.margin-y-25 {
+  margin: 25px 0;
+}
+
+.margin-x-25 {
+  margin: 0 25px;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.padding-y-25 {
+  padding: 25px 0;
+}
+
+.padding-x-25 {
+  padding: 0 25px;
+}
+
+.margin-30 {
+  margin: 30px;
+}
+
+.margin-y-30 {
+  margin: 30px 0;
+}
+
+.margin-x-30 {
+  margin: 0 30px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.padding-y-30 {
+  padding: 30px 0;
+}
+
+.padding-x-30 {
+  padding: 0 30px;
+}
+
+header, header .header-prefix, header .navbar ul, .main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+body[data-theme=dark] {
+  background-color: #000000;
+  color: #eeeeee;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+body[data-theme=dark] a {
+  color: #eeeeee;
+}
+
+header {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+header input {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+header input:focus {
+  outline: none;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+}
+
+header a:hover {
+  color: #f36505;
+}
+
+header h1 span {
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+header .logo {
+  width: 45px;
+  height: 70px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+header .header-prefix {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .light-theme {
+  background: #000000;
+  color: #eeeeee;
+}
+
+header .dark-theme {
+  background: #ffffff;
+  color: #333333;
+}
+
+.main-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  line-height: 2;
+}
+
+.main-container img {
+  width: 400px;
+}
+
+.main-container input {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main-container input:focus {
+  outline: none;
+}
+
+.contact-btn {
+  background: #f36505;
+}
+
+.resume-btn {
+  background: #b3b3b3;
+}
+/*# sourceMappingURL=style.css.map */
